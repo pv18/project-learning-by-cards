@@ -1,8 +1,8 @@
 import React from 'react';
-import {AuthInput} from './UI/auth/AuthInput';
-import {AuthPassword} from './UI/auth/AuthPassword';
+import {AuthInput} from '../UI/auth/AuthInput';
+import {AuthPassword} from '../UI/auth/AuthPassword';
 import styled from 'styled-components';
-import {AuthButton} from './UI/auth/AuthButton';
+import {AuthButton} from '../UI/auth/AuthButton';
 
 export const Register = () => {
     return (
@@ -35,30 +35,6 @@ const RegisterStyled = styled.div`
     color: #2D2E46;
   }
 
-  .recovery {
-    margin-top: 48px;
-    margin-bottom: 92px;
-    font-family: 'SF UI Display', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: right;
-    color: #2D2E46;
-  }
-
-  .account-availability {
-    margin-top: 31px;
-    margin-bottom: 11px;
-    font-family: 'SF UI Display', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 24px;
-    color: #2D2E46;
-    opacity: 0.5;
-  }
-
   h2 {
     margin-bottom: 32px;
     font-size: 26px;
@@ -69,15 +45,6 @@ const RegisterStyled = styled.div`
     margin-bottom: 38px;
     font-size: 22px;
     line-height: 33px;
-  }
-
-  h4 {
-    font-family: 'SF UI Display', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #21268F;
   }
 `
 

@@ -4,12 +4,14 @@ import Button from '@material-ui/core/Button';
 
 interface IAuthButton {
     width?: string
+    mb?: string
 }
 
 export const AuthButton = styled(Button)<IAuthButton>`
   && {
     height: 36px;
-    width: ${props => props.width || '100px'};
+    width: ${props => props.width || '266px'};
+    margin-bottom: ${props => props.mb || '5px'};
     text-transform: none;
     font-family: 'SF UI Display', sans-serif;
     font-style: normal;

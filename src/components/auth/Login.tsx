@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import {AuthInput} from './UI/auth/AuthInput';
-import {AuthPassword} from './UI/auth/AuthPassword';
-import {AuthButton} from './UI/auth/AuthButton';
+import {AuthInput} from '../UI/auth/AuthInput';
+import {AuthPassword} from '../UI/auth/AuthPassword';
+import {AuthButton} from '../UI/auth/AuthButton';
 
 export const Login = () => {
     return (
@@ -15,7 +15,7 @@ export const Login = () => {
             />
             <AuthPassword placeholder={'Password'}/>
             <p className={'recovery'}>Forgot Password</p>
-            <AuthButton variant={'contained'} width={'266px'}>Login</AuthButton>
+            <AuthButton variant={'contained'}>Login</AuthButton>
             <p className={'account-availability'}>Don’t have an account?</p>
             <h4>Sign Up</h4>
         </LoginStyled>
