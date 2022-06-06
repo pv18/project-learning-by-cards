@@ -7,8 +7,8 @@ import {NewPasswordContainer} from '../pages/NewPasswordContainer';
 
 export const PATH = {
     PROFILE: '/profile',
-    REGISTRATION: '/registration',
-    LOGIN: '/login',
+    REGISTRATION: '/register',
+    LOGIN: '/',
     PASSWORD: '/password',
     RECOVERY: '/recovery',
 }
